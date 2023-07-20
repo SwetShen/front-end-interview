@@ -1,0 +1,9 @@
+@echo off
+
+echo  ready-push...
+git add .
+git commit -m "update"
+echo start-push...
+git push
+echo push-over...
+pause
